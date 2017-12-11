@@ -1,0 +1,26 @@
+{
+  "name": "customjs30",
+  "version": "1.0.0",
+  "description": "Customized exercises of 30 day JS challenge + SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AltheaE/Custom-JavaScript-30.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AltheaE/Custom-JavaScript-30/issues"
+  },
+  "homepage": "https://github.com/AltheaE/Custom-JavaScript-30#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-folders": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "path": "^0.12.7"
+  }
+}
