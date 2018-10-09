@@ -1,6 +1,8 @@
 
-    h1 {
+    *{
         font-family: 'Roboto', sans-serif;
+    }
+    h1 {
         color: white;
         font-weight: bold;
         color: #FFC107;
@@ -9,3 +11,17 @@
         padding: 20px;
         text-align: center;
     }
+.item__details{
+        position: relative;
+        z-index: 1;
+        padding: 15px;
+        color: #444;
+        background: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #828282;
+}
+
+a{
+    text-decoration: none;
+}
