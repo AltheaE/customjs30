@@ -1,0 +1,12 @@
+:root {
+    --art: (
+       :doodle {
+          @grid: 8 / 90%;
+         } /*closes doodle definition*/
+        transition: .2s @r(.6s);
+        background: hsla(
+          calc(240 - 6 * @row() * @col()),
+          70%, 68%, @r(.9)
+        ); /*closes background definition*/
+   );  /*closes --art definition*/
+  }  /*closes root definition*/
