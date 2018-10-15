@@ -5,7 +5,7 @@
     border-radius: 50%;
     margin: 50px auto;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     margin-left: -150px;
     padding: 2rem;
@@ -43,15 +43,15 @@
     background: url(images/kitty.svg) no-repeat top left;
     background-size: contain;
     width: 800px;
+    height: 1000px;
     position: relative;
 
 }
 
-.kitty-paw {
-    width: 300px;
-    height: 100%;
+.kitty-paw--small {
     position: absolute;
+    top: 22%;
+    width: 600px;
+    left: 23%;
     z-index: 999;
-    top: 50%;
-    left: 50%;
 }
