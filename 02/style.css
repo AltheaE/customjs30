@@ -39,7 +39,7 @@ body {
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); }
 
 .kitty {
-  background: url(images/kitty.svg) no-repeat top left;
+  background: url(images/kitty-noarm.svg) no-repeat top left;
   background-size: contain;
   width: 800px;
   height: 1000px;
@@ -51,6 +51,21 @@ body {
   width: 600px;
   left: 23%;
   z-index: 999; }
+
+.kitty-paw--large {
+  position: absolute;
+  top: 3%;
+  width: 665px;
+  left: -18%;
+  z-index: 999;
+  transform-origin: bottom right;
+  animation: hello 1s linear 1s infinite alternate; }
+
+@keyframes hello {
+  from {
+    transform: rotate(0); }
+  to {
+    transform: rotate(-4deg); } }
 
 html {
   font-family: 'helvetica neue';
