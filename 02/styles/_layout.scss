@@ -1,5 +1,4 @@
 html {
-    font-family:'helvetica neue';
     text-align: center;
     font-size: 10px;
   }
@@ -12,4 +11,5 @@ html {
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }

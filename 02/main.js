@@ -2,6 +2,7 @@ const secondsHand = document.querySelector('.second-hand');
 const minutesHand = document.querySelector('.minute-hand');
 const hourHand = document.querySelector('.hour-hand');
 const paw = document.querySelector('.kitty-paw--large');
+const digitalCLock = document.getElementById('digitalClock');
 
 function setDate(){
   const time = new Date();
@@ -14,6 +15,7 @@ function setDate(){
   const hour = time.getHours();
   const hourDegrees = ((hour/12)*360)+ ((minutes/60)*30) + 90;
   hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+  digitalCLock.innerHTML = hour + ':' + minutes + ':' + seconds;
 }
 
 setInterval(setDate,1000);

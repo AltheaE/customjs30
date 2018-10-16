@@ -3,8 +3,7 @@
 
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif; }
+  padding: 0; }
 
 .clock {
   width: 30rem;
@@ -68,7 +67,6 @@ body {
     transform: rotate(-4deg); } }
 
 html {
-  font-family: 'helvetica neue';
   text-align: center;
   font-size: 10px; }
 
@@ -80,4 +78,16 @@ body {
   min-height: 100vh;
   align-items: center;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column; }
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  color: indianred; }
+
+h1 {
+  font-size: 60px; }
+
+p {
+  font-size: 45px;
+  margin-bottom: 0; }
