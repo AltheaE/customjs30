@@ -2,7 +2,7 @@ body {
     text-align: center;
     background-repeat:no-repeat;
     background-size:cover;
-    color: darkorange;
+    color:var(--base);
     font-family: 'Amatic SC', cursive;
     font-weight: 100;
     font-size: 50px;
@@ -20,10 +20,12 @@ body {
     --blur: 10px;
   }
   img {
-    background: var(--base);
+    padding: 5px;
+    border:12px solid;
+    border-color: var(--base);
     filter: blur(var(--blur)) hue-rotate(var(--hue));
     max-width: 800px;
   }
   .highlight {
-    color: var(--base);
+    color: darkorange;
   }
