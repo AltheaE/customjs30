@@ -45,11 +45,23 @@ body {
   margin: 0;
   width: 100%;
   transition: transform 0.5s;
-  border: 1px solid red;
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
   align-items: center; }
+  .panel > *:first-child {
+    transform: translateY(-100%); }
+  .panel > *:last-child {
+    transform: translateY(100%); }
+
+.panel.open-active > *:first-child {
+  transform: translateY(0); }
+
+.panel.open-active > *:last-child {
+  transform: translateY(0); }
+
+.panel.open {
+  flex: 5; }
 
 .panel p {
   text-transform: uppercase;
