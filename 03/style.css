@@ -24,7 +24,7 @@ body {
     border:12px solid;
     border-color: var(--base);
     filter: blur(var(--blur)) hue-rotate(var(--hue));
-    max-width: 800px;
+    max-width: 600px;
   }
   .highlight {
     color: darkorange;
