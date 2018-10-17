@@ -3,23 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Scoped CSS Variables and JS</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+  <h2>Update CSS Variables with <span class='highlight'>JS</span></h2>
 
   <div class="controls">
-    <label for="spacing">Spacing:</label>
-    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+    <label for="hue">Hue:</label>
+    <input class="hue" type="range" name="hue" min="0" max="100" value="10">
 
     <label for="blur">Blur:</label>
-    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+    <input class="blur" type="range" name="blur" min="0" max="100" value="10">
 
     <label for="base">Base Color</label>
-    <input id="base" type="color" name="base" value="#ffc600">
+    <input class="base" type="color" name="base" value="#e76209">
   </div>
-
-  <img src="https://images.unsplash.com/photo-1509085670796-d06d1de77ed4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4259b2ef82c2b4343d91e1fcc7b3dec4&auto=format&fit=crop&w=1500&q=80">
+<div>
+  <img src="images/halloween.svg" alt="">
+</div>
 
   <script src="main.js"></script>
 

@@ -1,10 +1,9 @@
 body {
     text-align: center;
-    background:url(https://images.unsplash.com/photo-1528056887858-f9b328ad0689?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0b39d9ad440279bf8875743ab23a1487&auto=format&fit=crop&w=1504&q=80);
     background-repeat:no-repeat;
     background-size:cover;
-    color: white;
-    font-family: 'helvetica neue', sans-serif;
+    color: darkorange;
+    font-family: 'Amatic SC', cursive;
     font-weight: 100;
     font-size: 50px;
   }
@@ -16,15 +15,15 @@ body {
   }
 
   :root {
-    --base: #ffc600;
-    --spacing: 10px;
+    --base: #e76209;
+    --hue: 8deg;
     --blur: 10px;
   }
   img {
-    padding: var(--spacing);
     background: var(--base);
-    filter: blur(var(--blur));
+    filter: blur(var(--blur)) hue-rotate(var(--hue));
+    max-width: 800px;
   }
-  .hl {
+  .highlight {
     color: var(--base);
   }
