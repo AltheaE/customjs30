@@ -5,6 +5,7 @@ justify-content:center;
 }
    img{
     max-height: 100vh;
+    user-select: none;
    }
 #canvas{
     margin-left: -276px;
@@ -14,4 +15,9 @@ justify-content:center;
     position: absolute;
 /*     border: 5px solid pink;
  */    transform: rotate(-5deg);
+}
+.canvas-container{
+    max-width: 390px;
+    max-height: 560px;
+    
 }

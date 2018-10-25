@@ -11,7 +11,8 @@ body {
   justify-content: center; }
 
 img {
-  max-height: 100vh; }
+  max-height: 100vh;
+  user-select: none; }
 
 #canvas {
   margin-left: -276px;
@@ -22,6 +23,10 @@ img {
   /*     border: 5px solid pink;
  */
   transform: rotate(-5deg); }
+
+.canvas-container {
+  max-width: 390px;
+  max-height: 560px; }
 
 h1 {
   font-family: 'Fjalla One', sans-serif;

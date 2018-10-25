@@ -6,7 +6,7 @@ ctx.strokeStyle = '#fabada';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 25;
-ctx.globalCompositeOperation = 'multiply';
+/* ctx.globalCompositeOperation = 'multiply'; */
 
 let isDrawing = false;
 let lastX = 0;
