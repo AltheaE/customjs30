@@ -1,11 +1,12 @@
 const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth;
-canvas.heigth = window.innerHeight;
+canvas.width = 390;
+canvas.heigth = 560;
 ctx.strokeStyle = '#fabada';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
-ctx.lineWidth = 15;
+ctx.lineWidth = 25;
+ctx.globalCompositeOperation = 'multiply';
 
 let isDrawing = false;
 let lastX = 0;

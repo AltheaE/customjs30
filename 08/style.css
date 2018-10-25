@@ -4,3 +4,27 @@
 body {
   margin: 0;
   padding: 0; }
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; }
+
+img {
+  max-height: 100vh; }
+
+#canvas {
+  margin-left: -276px;
+  left: 50%;
+  top: 50%;
+  margin-top: -150px;
+  position: absolute;
+  /*     border: 5px solid pink;
+ */
+  transform: rotate(-5deg); }
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 180px;
+  position: absolute;
+  left: 0; }
