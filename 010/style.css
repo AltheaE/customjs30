@@ -6,7 +6,7 @@ body {
   padding: 0; }
 
 .inbox {
-  max-width: 400px;
+  max-width: 600px;
   margin: 50px auto;
   background: white;
   border-radius: 5px;
@@ -38,6 +38,10 @@ p {
 html {
   background-color: aquamarine; }
 
+header {
+  display: flex;
+  justify-content: center; }
+
 html {
   font-family: 'Montserrat'; }
 
@@ -48,3 +52,7 @@ p {
   font-family: 'Montserrat';
   font-size: 30px;
   font-weight: 400; }
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 90px; }
