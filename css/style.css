@@ -104,7 +104,6 @@ h1 {
         grid-column: 1/-1;
         grid-row-end: span 2; } }
   .item__details {
-    cursor: pointer;
     position: relative;
     z-index: 1;
     padding: 15px;
@@ -157,7 +156,8 @@ h1 {
   color: #828282; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 .name {
   position: absolute;
