@@ -13,3 +13,14 @@ const inputs = document.querySelectorAll('.controls input');
     }
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+
+
+
+    const scrollbar = document.querySelectorAll('.scrollbar');
+    const redcircle = document.querySelector('.redcircle');
+
+    function colourUpdate() {
+      if (redcircle.classList.contains('red')) {
+         scrollbar.style.scolor = 'red';
+    }

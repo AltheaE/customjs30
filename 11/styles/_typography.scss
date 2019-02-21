@@ -1,0 +1,17 @@
+html {
+    font-family: 'Montserrat';
+  }
+
+ 
+  input:checked + p {
+    text-decoration: line-through;
+  }
+  p {
+    font-family:'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+  }
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+  }
