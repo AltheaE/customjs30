@@ -24,3 +24,4 @@ const inputs = document.querySelectorAll('.controls input');
       if (redcircle.classList.contains('red')) {
          scrollbar.style.scolor = 'red';
     }
+   }

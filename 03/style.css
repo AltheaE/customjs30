@@ -1,3 +1,10 @@
+
+  :root {
+    --base: #e76209;
+    --hue: 8deg;
+    --blur: 10px;
+  }
+
 body {
     text-align: center;
     background-repeat:no-repeat;
@@ -14,11 +21,6 @@ body {
     width:100px;
   }
 
-  :root {
-    --base: #e76209;
-    --hue: 8deg;
-    --blur: 10px;
-  }
   img {
     padding: 5px;
     border:12px solid;
